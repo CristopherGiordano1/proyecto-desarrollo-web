@@ -189,7 +189,12 @@ main {
 .mapa {
     padding: 0;
 }
+/* sección productos */
 
+.parrafo{
+    margin: 25px;
+    padding: 25px;
+}
 
 /* pie de página */
 footer {
