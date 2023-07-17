@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 5;
+    padding: 10;
+}
+
+body {
+    background-color: #16a085;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/*header*/
+
+.logoh1 {
+    width: 120px;
+}
+
+.navbar{
+    background-color: #16a085 !important;
+    font-family: 'Oswald', sans-serif !important;
+
+}
+
+h1 {
+    color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+}
+
+nav {
+    color: rgb(114, 3, 184);
+}
+
+nav a {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(140, 3, 199) !important;
+    font-weight: bold !important;
+}
+
+.color-fondo:active{
+    background-color: white !important;
+
+}
+.menu {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.menu li {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+input{
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(204, 140, 227);
+}
+
+input:focus{
+    color: rgb(140, 3, 199) !important;
+}
+
+header {
+    box-shadow: 0px 10px 10px;
+    color: #018f72;
+}
+
+/*main*/
+
+main {
+    background-color: rgb(252, 252, 237);
+    color: #018f72;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px;
+}
+
+/*sección "contacto"*/
+.contacto {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*imágenes del index*/
+.banner-principal {
+    width: 1490px;
+    height: 750px;
+}
+
+.banner-marcas {
+    width: 1490px;
+    height: 350px;
+}
+
+/* promociones del index */
+
+.titulo-promociones {
+    text-align: center;
+    font-size: 25px;
+}
+
+.promociones {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.promociones li {
+    display: flex;
+}
+
+.promociones img {
+    display: flex;
+    margin: 10px;
+    width: 250px;
+
+}
+
+
+.servicios {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.servicios li {
+    margin: 25px;
+}
+
+/*imágenes de la sección "productos"*/
+.uno {
+    max-width: 800px;
+}
+
+.dos {
+    max-width: 800px;
+}
+
+.tres {
+    max-width: 800px;
+}
+
+.menu-productos {
+    text-align: center;
+}
+
+.menu-productos img {
+    width: 200px;
+}
+
+.como-comprar {
+    display: grid;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+
+
+}
+
+.como-comprar li {
+    border: 2px rgb(176, 5, 176) solid;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+.mapa {
+    padding: 0;
+}
+
+
+/* pie de página */
+footer {
+    color: whitesmoke;
+    text-align: center;
+}
+footer h3{
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+
+    .logo{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-principal {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .banner-marcas {
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+     
+    }
+
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .promociones {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .como-comprar {
+
+        grid-template-rows: 90px 90px 90px 115px 130px;
+
+    }
+
+    .como-comprar li {
+        overflow: auto;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    #mapa-la-plata {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #mapa-city-bell {
+        width: 100%;
+        height: 100%;
+    }
+
+}
