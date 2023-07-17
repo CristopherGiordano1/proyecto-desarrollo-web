@@ -195,6 +195,9 @@ main {
     margin: 25px;
     padding: 25px;
 }
+.titulo-productos{
+    margin: 30px;
+}
 
 /* pie de página */
 footer {
