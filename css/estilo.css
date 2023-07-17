@@ -45,7 +45,7 @@ nav a:hover{
 }
 
 .color-fondo:active{
-    background-color: white !important;
+    background-color: white;
 
 }
 .menu {
@@ -72,7 +72,7 @@ input{
 }
 
 input:focus{
-    color: rgb(140, 3, 199) !important;
+    color: rgb(140, 3, 199);
 }
 
 header {
